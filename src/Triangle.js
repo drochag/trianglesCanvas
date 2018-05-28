@@ -103,12 +103,12 @@ export default class Triangle {
 
     while (types.length > 1) {
       this.type = types.splice(Math.floor(Math.random() * types.length), 1)[0]
-      this.color = gradient.randomGray(initialPoint.getX(), initialPoint.getY())
+      this.color = gradient.randomGray(initialPoint.x, initialPoint.y)
       this.getPoints()
       this.draw(ctx)
     }
 
-    this.color = gradient.randomGray(initialPoint.getX(), initialPoint.getY())
+    this.color = gradient.randomGray(initialPoint.x, initialPoint.y)
     this.type = types.pop()
     this.getPoints()
 
