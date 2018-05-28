@@ -4,7 +4,7 @@
 
 `npm install trianglescanvas`
 
-## Usage
+## Usage
 
 ```
 
@@ -22,3 +22,6 @@ trianglesCanvas({
 })
 
 ```
+
+
+### [Demo](https://danmmx.github.io/trianglesCanvas/)
