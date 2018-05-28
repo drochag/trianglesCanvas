@@ -1,6 +1,6 @@
 {
   "name": "triangles-canvas",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Triangles background animation using canvas.",
   "main": "dist/index.js",
   "scripts": {
