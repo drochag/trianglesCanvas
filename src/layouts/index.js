@@ -13,6 +13,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[
+        { rel: 'stylesheet', 'href': 'https://use.fontawesome.com/releases/v5.0.13/css/all.css', integrity: 'sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp', crossorigin: 'anonymous'}
+      ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
@@ -25,6 +28,11 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+    <footer style={{
+      background: '#2d2d2d',
+      padding: 20,
+      textAlign: 'center'
+    }}><a style={{color: '#f67d02', textDecoration: 'none'}} href="http://danrocha.xyz">Daniel Rocha <sup>&reg;</sup> 2018</a></footer>
   </div>
 )
 

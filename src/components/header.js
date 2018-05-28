@@ -4,8 +4,9 @@ import Link from 'gatsby-link'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#2d2d2d',
       marginBottom: '1.45rem',
+      color: '#f67d02'
     }}
   >
     <div
@@ -19,11 +20,13 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#f67d02',
             textDecoration: 'none',
           }}
         >
           {siteTitle}
+          <a target="_blank" href="https://github.com/DanMMX/trianglesCanvas" style={{color: '#f67d02', marginLeft: '1em'}}><i className="fab fa-github" /></a>
+          <a target="_blank" href="https://www.npmjs.com/package/triangles-canvas" style={{color: '#f67d02', marginLeft: '1em'}}><i className="fab fa-npm" /></a>
         </Link>
       </h1>
     </div>
