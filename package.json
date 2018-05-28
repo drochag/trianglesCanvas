@@ -1,0 +1,27 @@
+{
+  "name": "triangles-canvas-gh-pages-dev",
+  "description": "Triangles Canvas gh-pages development repo",
+  "version": "1.0.0",
+  "author": "Dan Rocha <hi@danrocha.xyz>",
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "triangles",
+    "canvas"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.12.0"
+  }
+}
