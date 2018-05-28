@@ -3,4 +3,5 @@ module.exports = {
     title: 'Triangles Canvas',
   },
   plugins: ['gatsby-plugin-react-helmet'],
+  pathPrefix: '/trianglesCanvas'
 }
