@@ -4,7 +4,8 @@
   "description": "Triangles background animation using canvas.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src/index.js -o dist/index.js",
+    "build": "babel src --out-dir dist",
+    "prebuild": "rm -rf dist/ && mkdir dist",
     "lint": "eslint --fix --ignore-path .gitignore ."
   },
   "repository": {
